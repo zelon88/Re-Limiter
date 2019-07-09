@@ -6,8 +6,8 @@ VSVersionInfo(
   ffi=FixedFileInfo(
 # filevers and prodvers should be always a tuple with four items: (1, 2, 3, 4)
 # Set not needed items to zero 0.
-filevers=(1, 0, 0, 0),
-prodvers=(1, 0, 0, 0),
+filevers=(1, 1, 0, 0),
+prodvers=(1, 1, 0, 0),
 # Contains a bitmask that specifies the valid bits 'flags'r
 mask=0x3f,
 # Contains a bitmask that specifies the Boolean attributes of the file.
@@ -31,12 +31,12 @@ StringFileInfo(
     u'040904B0',
     [StringStruct(u'CompanyName', u'HonestRepair'),
     StringStruct(u'FileDescription', u'Re-Limiter - Delimited File Manipulator'),
-    StringStruct(u'FileVersion', u'1.0.0.0'),
+    StringStruct(u'FileVersion', u'1.1.0.0'),
     StringStruct(u'InternalName', u'Re-Limiter'),
     StringStruct(u'LegalCopyright', u'Copyright (c) HonestRepair'),
     StringStruct(u'OriginalFilename', u'Re-Limiter.exe'),
     StringStruct(u'ProductName', u'Re-Limiter'),
-    StringStruct(u'ProductVersion', u'v1.0.0')])
+    StringStruct(u'ProductVersion', u'v1.1.0')])
   ]), 
 VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
   ]
