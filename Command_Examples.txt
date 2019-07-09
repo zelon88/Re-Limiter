@@ -1,0 +1,19 @@
+EXAMPLE COMMANDS
+
+Display help text.
+  Re-Limiter.py h
+
+Replace "," with " " from c:\TestFolder\test.csv and save it to c:\TestFolder\output.txt.
+ Re-Limiter.py , " " c:\TestFolder\test.csv c:\TestFolder\output.txt
+
+Replace " " with "," from c:\TestFolder\test.csv and overwrite c:\TestFolder\output.txt.
+ Re-Limiter.py "  " , c:\TestFolder\test.test c:\TestFolder\output.txt f
+
+Replace " " with "," from c:\TestFolder\test.csv and overwrite c:\TestFolder\output.txt with full logging.
+ Re-Limiter.py "  " , c:\TestFolder\test.test c:\TestFolder\output.txt f l2
+
+Replace " " with "," from c:\TestFolder\test.csv and overwrite c:\TestFolder\output.txt with full verbosity.
+ Re-Limiter.py "  " , c:\TestFolder\test.test c:\TestFolder\output.txt f v2
+
+Replace " " with "," from c:\TestFolder\test.csv and overwrite c:\TestFolder\output.txt with no logs or verbosity.
+ Re-Limiter.py "  " , c:\TestFolder\test.test c:\TestFolder\output.txt f v0 l0
