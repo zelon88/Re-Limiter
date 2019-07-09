@@ -1,6 +1,6 @@
 # --------------------------------------------------
 # Re-Limiter.py
-# v1.0 - 7/9/2019
+# v1.1 - 7/9/2019
 
 # Justin Grimes (@zelon88)
 #   https://github.com/zelon88/Re-Limiter
@@ -59,7 +59,7 @@
 import sys, getopt, datetime, os
 progFileName = "Re-Limiter.py"
 progName = "Re-Limiter"
-progVers = "v1.0"
+progVers = "v1.1"
 progDesc = 'This program allows you to convert the delimiting characters in delimited files into other characters while preserving original data.'
 logPrefix = 'OP-Act: '
 scriptPath = os.path.dirname(sys.argv[0]) 
@@ -151,7 +151,7 @@ def parseArgs(logging, verbosity, argv, errorCounter):
     if sys.argv[5] == 'v2': verbosity = 2
     # Set forced overwrite from argument 4.
     if sys.argv[5] == 'f' or 'force' in sys.argv[5]: forced = True
-  if len(sys.argv) > 5:
+  if len(sys.argv) > 6:
     # Set the logging level from argument 5.
     if sys.argv[6] == 'l0': logging = 0
     if sys.argv[6] == 'l1': logging = 1
@@ -162,7 +162,7 @@ def parseArgs(logging, verbosity, argv, errorCounter):
     if sys.argv[6] == 'v2': verbosity = 2
     # Set forced overwrite from argument 5.
     if sys.argv[6] == 'f' or 'force' in sys.argv[6]: forced = True
-  if len(sys.argv) > 6:
+  if len(sys.argv) > 7:
     # Set the logging level from argument 6.
     if sys.argv[7] == 'l0': logging = 0
     if sys.argv[7] == 'l1': logging = 1
