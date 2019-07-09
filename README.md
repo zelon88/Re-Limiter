@@ -22,7 +22,7 @@ There's some example commands in Example_Commands.txt, but here's a quick rundow
 ## Usage
 
 Display help text.
-  Re-Limiter.py h
+ > Re-Limiter.py h
 
 Replace "," with " " from c:\TestFolder\test.csv and save it to c:\TestFolder\output.txt.
  > Re-Limiter.py , " " c:\TestFolder\test.csv c:\TestFolder\output.txt
